@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ndkjni</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rom_name">Test</string>
+    <string name="dialog_enter">Estimado/a visitante de Test aplicación, poner aquí lo que querais.</string>
+    <string name="logo">logo</string>
+    <string name="enter_title">Bienvenido</string>
+    <string name="credits_title">Créditos</string>
+    <string name="credits">"===
+        • juan
+        • b16h22
+• iamareebjamal
+• ivn888
+• enricocid
+• GFX Bandits
+• stackoverflow.com
+• JakeWharton
+• inmite
+• Sergey Margaritov
+• Google/Android
+        ==="</string>
+    <string name="na">Otros</string>
+    <string name="ne">Hello from jni !!</string>
+    <string name="quick_launch">Quick launch</string>
+    <string name="email_subject">Correo_electrónico_Asunto_AQUÍ</string>
+    <string name="about_title">Acerca de la aplicación</string>
+    <string name="dialog_about">Estimado/a visitante de Test aplicación, poner aquí lo que querais..</string>
+    <string name="reboot_title">Reiniciar</string>
+    <string name="reboot_message">Quieres reiniciar?</string>
+    <string name="positive_button">Aceptar</string>
+    <string name="negative_button">Cancelar</string>
+    <string name="more">Más</string>
+    <string name="more_about">Acerca de la App</string>
+    <string name="more_email">Correo del desarrollador</string>
+    <string name="more_reboot">Reiniciar</string>
+    <string name="icon">icon</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#ff000000</color>
+    <color name="blue">#cc33b5e5</color>
+    <color name="holo_light">#fff3f3f3</color>
+    <color name="white">#ffffffff</color>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="dark">#ff111111</color>
+    <color name="stroke">#dddddd</color>
+    <color name="back">#ffe5e5e5</color>
+    <color name="trans">#00000000</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

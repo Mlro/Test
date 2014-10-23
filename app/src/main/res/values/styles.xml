@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme" parent="@style/Theme.Sherlock">
+
+        <!-- Customize your theme here. -->
+        <item name="android:listViewStyle">@style/Widget.ListView.Holo.Light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Seperator</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:galleryStyle">@style/Widget.Gallery</item>
+        <item name="android:windowBackground">@drawable/background_holo_dark</item>
+        <item name="actionBarStyle">@style/Widget.Sherlock.ActionBar.Solid</item>
+    </style>
+
+    <style name="Holo.Light" parent="@style/Theme.Sherlock.Light">
+        <item name="android:listViewStyle">@style/Widget.ListView.Holo.Light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Seperator</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:windowBackground">@color/back</item>
+    </style>
+
+    <style name="Holo.ListView" parent="@style/Holo.Light">
+        <item name="android:listViewStyle">@style/Widget.ListView.Holo.Light</item>
+        <item name="android:windowBackground">@drawable/background_holo_dark</item>
+    </style>
+
+    <style name="Widget.ListView.Holo.Light" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@drawable/divider_horizontal_bright</item>
+        <item name="android:listSelector">@drawable/list_selector_holo_dark</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:windowBackground">@drawable/background_holo_dark</item>
+    </style>
+
+    <style name="TextAppearance.Large" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffe5e5e5</item>
+    </style>
+
+    <style name="TextAppearance.Preference.Summary" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffe5e5e5</item>
+    </style>
+
+    <style name="Seperator">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff0099bc</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/dark_header</item>
+        <item name="android:paddingLeft">5.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Widget.Gallery" parent="@android:style/Widget">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:spacing">-20.0dip</item>
+        <item name="android:unselectedAlpha">1</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+</resources>
